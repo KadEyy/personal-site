@@ -1,7 +1,5 @@
 import React, {FC, useState} from 'react';
 import styles from './Navbar.module.scss';
-import OpenMenu from '../../img/openmenu.svg';
-import CloseMenu from '../../img/closemenu.svg';
 import { useTranslation } from 'react-i18next';
 
 const Navbar: FC = () => {
@@ -24,13 +22,17 @@ const Navbar: FC = () => {
                     <div>|</div>
                     <div onClick={() => i18n.changeLanguage('en')} className={styles.lang}>EN</div>
                 </div>
-                <img onClick={() => setMenuOpen(!menuOpen)} className={styles.hamburger} src={menuOpen ? CloseMenu : OpenMenu}/>
+                <div onClick={() => setMenuOpen(!menuOpen)} className={menuOpen ? styles.close : styles.open}>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
             <div className={`${styles.menu} ${menuOpen ? styles.active : ''}`}>
                 <ul className={styles.list}>
                     <li onClick={() => scrollTo('about')}>{t('about')}</li>
-                    <li onClick={() => scrollTo('skills')}>{t('skills')}</li>
                     <li onClick={() => scrollTo('projects')}>{t('projects')}</li>
+                    <li onClick={() => scrollTo('skills')}>{t('skills')}</li>
                     <li onClick={() => scrollTo('contact')}>{t('contact')}</li>
                 </ul>
             </div>

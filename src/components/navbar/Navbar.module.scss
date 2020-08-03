@@ -1,10 +1,10 @@
 .navbar{
     position: fixed;
     top: 0;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(2px);
     width: 100%;
+    color: #A9A9A9;
     z-index: 99;
-    color: #f1f1f1;
     .menuMount{
         width: 100%;
         display: flex;
@@ -32,16 +32,43 @@
             text-align: center;
             cursor: pointer;
             font-weight: bold;
-            text-shadow: 1px 1px #000;
         }
     }
     .active{
         height: calc(100vh - 80px);
     }
-    .hamburger{
-        height: 25px;
+    .close{
+        width: 30px;
+        height: 30px;
+        position: relative;
         margin-right: 30px;
-        cursor: pointer;
+        span:nth-child(1) {
+            height: 30px;
+            border-left: 2px solid;
+            position: absolute;
+            transform: rotate(45deg);
+            left: 14px;
+        }
+        span:nth-child(3){
+            height: 30px;
+            border-left: 2px solid;
+            position: absolute;
+            transform: rotate(-45deg);
+            left: 14px;
+        }
+    }
+    .open{
+        margin-right: 30px;
+        width: 30px;
+        height: 20px;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+        & > span{
+            background-color: #A9A9A9;
+            width: 30px;
+            height: 2px;
+        }
     }
     .langSwitch{
         display: flex;
