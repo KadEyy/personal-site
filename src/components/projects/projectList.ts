@@ -1,9 +1,39 @@
 import UMOpatow from '../../img/umopatow.png';
 import Polmot2 from '../../img/polmot2.png';
 import CodeReviewer from '../../img/codereviewer.png';
+import LinkShrink from '../../img/linkShrink.png';
+import WorldNews from '../../img/worldNews.png';
 import API from '../../img/API.png';
 
 const list = [
+    {
+        img: WorldNews,
+        title: 'worldNews',
+        desc: 'worldNewsDesc',
+        tags: [
+            'Public API',
+            'SCSS',
+            'JavaScript',
+            'TypeScript',
+            'React',
+            'Material-UI'
+        ],
+        link: 'https://kadeyy.github.io/world-news',
+        srcLink: 'https://github.com/KadEyy/world-news',
+    },
+    {
+        img: LinkShrink,
+        title: 'linkShrink',
+        desc: 'linkShrinkDesc',
+        tags: [
+            'Express',
+            'CSS',
+            'JavaScript',
+            'EJS'
+        ],
+        link: 'https://link-shrinker.herokuapp.com',
+        srcLink: 'https://github.com/KadEyy/link-shrink',
+    },
     {
         img: CodeReviewer,
         title: 'codeReviewer',
@@ -15,7 +45,7 @@ const list = [
             'Peer.js',
             'WebSocket API'
         ],
-        link: '',
+        link: 'http://codereviewer.mkadeyy1337.ct8.pl',
         srcLink: 'https://github.com/KadEyy/code-compiler'
     },
     {

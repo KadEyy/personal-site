@@ -1,8 +1,8 @@
 {   
     "about": "O mnie",
-    "aboutMain": "Cześć! Jestem Kuba, około roku temu zdecydowałem się zostać frontend developerem. Wcześniej przebrnąłem przez naukę C++ czy Javy jednak pisanie programów konsolowych szybko mnie nudziło. Prawdziwą przyjemność znalazłem stropniowo ucząc się frontendu. Pochłonął mnie on ponieważ to co działo się na ekranie było rzeczywistym odzwierciedleniem postępu jaki zrobiłem. Z czasem zabrałem się również za backend poznając PHP i MySQL czy MariaDB, lecz w miarę poznawania JavaScript wymieniłem wcześniej wspomniane technologie na Node.js z frameworkiem Express oraz MongoDB.\n\n W tym roku szkolnym ukończyłem szkołę średnią z tytułem technika informatyka. Teraz planuję dostać się na studia, dalej szlifować swoje umiejętności oraz znaleźć pracę jako junior frontend, ewentualnie fullstack.",
+    "aboutMain": "Cześć! Jestem Kuba, około roku temu zdecydowałem się zostać frontend developerem. Wcześniej przebrnąłem przez naukę C++ czy Javy jednak pisanie programów konsolowych szybko mnie nudziło. Prawdziwą przyjemność znalazłem stopniowo ucząc się frontendu. Pochłonął mnie on ponieważ, to co działo się na ekranie było rzeczywistym odzwierciedleniem postępu jaki zrobiłem. Z czasem zabrałem się również za backend poznając PHP i MySQL czy MariaDB, lecz w miarę poznawania JavaScript wymieniłem wcześniej wspomniane technologie na Node.js z frameworkiem Express oraz MongoDB.\n\n W tym roku szkolnym ukończyłem szkołę średnią z tytułem technika informatyka. Teraz planuję dostać się na studia, dalej szlifować swoje umiejętności oraz znaleźć pracę jako junior frontend, ewentualnie fullstack.",
     "aboutDesign": "Mój design:",
-    "aboutDesignText": "Rzeczy które tworzę mają być przede wszystkim proste. Lubię minimalizm, z ewentualnymi małymi, ale przeszkadzającymi mu się szczegółami. Sposób w jaki zwykle \"ubieram\" stronę w styl widać właśnie na przykładzie mojego portfolio.",
+    "aboutDesignText": "Rzeczy które tworzę mają być przede wszystkim proste. Lubię minimalizm, z ewentualnymi małymi, ale przeszkadzającymi mu szczegółami. Sposób w jaki zwykle \"ubieram\" stronę w styl widać właśnie na przykładzie mojego portfolio.",
     "skills": "Umiejętności",
     "projects": "Projekty",
     "contact": "Kontakt",
@@ -25,5 +25,9 @@
     "codeReviewer": "CodeReviewer",
     "codeReviewerDesc": "Strona do sprawdzania kodu. Posiada takie funkcje jak czat, czat głosowy, pisanie kodu w czasie rzeczywistym czy automatyczne zapisywanie pliku z możliwością późniejszego pobrania.",
     "codeReviewerAPI": "CodeReviewer API",
-    "codeReviewerAPIDesc": "API do strony CodeReviewer. Obsługuje ono wszystkie wywoływane przez klienta oraz zajmuje się przetwarzaniem danych."
+    "codeReviewerAPIDesc": "API do strony CodeReviewer. Obsługuje ono wszystkie wywoływane przez klienta oraz zajmuje się przetwarzaniem danych.",
+    "linkShrink": "Link-Shrink",
+    "linkShrinkDesc": "Prosta aplikacja serwerowa oparta na frameworku Express. Skracacz linków.",
+    "worldNews": "World-News",
+    "worldNewsDesc": "Aplikacja napisana za pomocą Reacta korzystająca z frameworku Material-UI oraz API newsriver.io."
 }

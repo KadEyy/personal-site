@@ -1,6 +1,6 @@
 {
     "about": "About me",
-    "aboutMain": "Hi! I am Kuba, about a year ago I decided to become a frontend developer. Earlier, I had gone through learning C++ or Java, but writing console programs quickly got boring for me. I found a real pleasure step by step learning the frontend. I liked it beacuse I could see progress I have done almost 1:1 on screen. With time, I also started backend learning about PHP and MySQL or MariaDB, but as I learned JavaScript more and more, I replaced the previously mentioned technologies with Node.js with the Express framework and MongoDB.\n\n Now I am after high school with title of IT technican. My plans for now are getteing to college, improving skills and searching for job as junior frontend/maybe fullstack.",
+    "aboutMain": "Hi! I am Kuba, about a year ago I decided to become a frontend developer. Earlier, I had gone through learning C++ or Java, but writing console programs quickly got boring for me. I found a real pleasure learning the frontend step by step. I liked it beacuse I could see progress I have done almost 1:1 on screen. With time, I also started learning backend technologies like PHP and MySQL or MariaDB, but as I learned JavaScript more and more, I replaced the previously mentioned technologies with Node.js with the Express framework and MongoDB.\n\n Now I am after high school with title of IT technican. My plans for now are getteing to college, improving skills and searching for job as junior frontend/maybe fullstack.",
     "aboutDesign": "My design:",
     "aboutDesignText": "Things I create have to be simple for sure. I love minimalism, with small and not disturbing the minimal nature of site details. Example how I \"dress up\" website in style can be seen on this exact portfolio",
     "skills": "Skills",
@@ -25,5 +25,9 @@
     "codeReviewer": "CodeReviewer",
     "codeReviewerDesc": "Frontend site for reviewing code including chat, voice chat, real-time typing and autosaves with function for downloading it later in text file.",
     "codeReviewerAPI": "CodeReviewer API",
-    "codeReviewerAPIDesc": "CodeReviewer website API. Backend that tasks are executing functions called by client and processing data."
+    "codeReviewerAPIDesc": "CodeReviewer website API. Backend that tasks are executing functions called by client and processing data.",
+    "linkShrink": "Link-Shrink",
+    "linkShrinkDesc": "Simple server side application created with Express framework. Link shortener.",
+    "worldNews": "World-News",
+    "worldNewsDesc": "SPA created with React and Material-UI. Getting informations from newsriver.io API."
 }

@@ -36,6 +36,8 @@ const Skills: FC = () => {
                 <div className={styles.tab}>
                     <div className={styles.skillTitle}>{t('others')}:</div>
                     <div className={styles.skillList}>
+                        <div className={styles.skill}>Material-UI</div>
+                        <div className={styles.skill}>EJS view engine</div>
                         <div className={styles.skill}>Sass</div>
                         <div className={styles.skill}>CSS</div>
                         <div className={styles.skill}>Git</div>
